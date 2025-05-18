@@ -5,11 +5,11 @@ This is a **Quiz Application** built using a **microservices architecture** with
 ---
 
 ## 🏗️ Project Structure
-QuizAppMicroservices/
-├── api-gateway/ # Handles routing, filtering, and authentication
-├── question-service/ # Manages quiz questions and interacts with DB
-├── quiz-service/ # Handles quiz creation and mapping with questions
-├── service-registry/ # Eureka server for service discovery
+QuizAppMicroservices/ <br>
+├── api-gateway/ # Handles routing, filtering, and authentication <br>
+├── question-service/ # Manages quiz questions and interacts with DB <br>
+├── quiz-service/ # Handles quiz creation and mapping with questions <br>
+├── service-registry/ # Eureka server for service discovery <br>
 ## 🔧 Tech Stack
 
 - Java 17+
@@ -58,7 +58,7 @@ QuizAppMicroservices/
 
 ### Step 1: Start the Eureka Server
 ```bash
-cd service-registry
+cd eureka-service
 ./mvnw spring-boot:run
 ```
 Step 2: Start the API Gateway
