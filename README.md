@@ -24,19 +24,19 @@ QuizAppMicroservices/ <br>
 
 ---
 
-## 🔍 Service Overview
+##  Service Overview
 
-### 📌 `service-registry`
+###  `service-registry`
 - Implements Eureka Server
 - All microservices register themselves here
 - Enables dynamic discovery and load balancing
 
-### 📌 `api-gateway`
+###  `api-gateway`
 - Acts as the single entry point for all clients
 - Handles routing to backend services
 - Can be extended to include JWT Auth, rate limiting, logging, etc.
 
-### 📌 `question-service`
+###  `question-service`
 - CRUD operations for quiz questions
 - Exposes endpoints:
     - `GET /questions`
@@ -44,7 +44,7 @@ QuizAppMicroservices/ <br>
     - `POST /questions`
 - Interacts with a relational DB (MySQL or H2)
 
-### 📌 `quiz-service`
+###  `quiz-service`
 - Handles quiz creation and management
 - Calls `question-service` to fetch quiz questions
 - Exposes endpoints:
@@ -54,7 +54,7 @@ QuizAppMicroservices/ <br>
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Start the Eureka Server
 ```bash
